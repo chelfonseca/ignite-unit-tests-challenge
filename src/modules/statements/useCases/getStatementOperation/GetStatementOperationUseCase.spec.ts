@@ -13,7 +13,7 @@ let createStatementUseCase: CreateStatementUseCase;
 let createUserUseCase: CreateUserUseCase;
 let getStatementOperationUseCase: GetStatementOperationUseCase;
 
-describe("Create Statement", () => {
+describe("Get Statement Operation", () => {
 
     beforeEach(() => {
         inMemoryStatementsRepository = new InMemoryStatementsRepository();

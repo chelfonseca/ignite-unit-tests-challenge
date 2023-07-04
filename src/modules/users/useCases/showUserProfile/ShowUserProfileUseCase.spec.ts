@@ -9,7 +9,7 @@ let inMemoryUsersRepository: InMemoryUsersRepository
 let createUserUseCase: CreateUserUseCase
 let showUserProfileUseCase: ShowUserProfileUseCase 
 
-describe("Authenticate User", () => {
+describe("Show User Profile", () => {
     beforeEach(() => {
         inMemoryUsersRepository = new InMemoryUsersRepository()
         createUserUseCase = new CreateUserUseCase(inMemoryUsersRepository)
