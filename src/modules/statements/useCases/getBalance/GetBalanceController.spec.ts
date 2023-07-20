@@ -34,6 +34,7 @@ describe("Get Balance", () => {
     .set({
         Authorization: `Bearer ${token}`
     })
+
     expect(response.status).toBe(200);
   });
  });

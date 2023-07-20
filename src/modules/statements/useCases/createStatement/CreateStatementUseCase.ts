@@ -32,6 +32,7 @@ export class CreateStatementUseCase {
 
     const statementOperation = await this.statementsRepository.create({
       user_id,
+      sender_id: user_id,
       type,
       amount,
       description
